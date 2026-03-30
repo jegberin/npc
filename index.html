@@ -67,7 +67,7 @@
             margin-bottom: 1rem;
         }
         .hero-overlay {
-            background: linear-gradient(135deg, rgba(245, 166, 35, 0.9) 0%, rgba(232, 145, 12, 0.85) 100%);
+            background: linear-gradient(135deg, rgba(245, 166, 35, 0.45) 0%, rgba(232, 145, 12, 0.4) 100%);
         }
     </style>
 </head>
@@ -122,7 +122,10 @@
 
     <section id="hero" class="relative min-h-screen flex items-center pt-16 lg:pt-20">
         <div class="absolute inset-0 z-0">
-            <img src="assets/images/jpg-1690652785452-edit-1440x810.webp" alt="Plant machinery and civil engineering" class="w-full h-full object-cover">
+            <video autoplay muted loop playsinline class="w-full h-full object-cover">
+                <source src="assets/images/hero-drone.mp4" type="video/mp4">
+                <img src="assets/images/jpg-1690652785452-edit-1440x810.webp" alt="Plant machinery and civil engineering" class="w-full h-full object-cover">
+            </video>
             <div class="hero-overlay absolute inset-0"></div>
         </div>
         
